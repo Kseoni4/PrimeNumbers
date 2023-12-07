@@ -2,7 +2,7 @@ package ru.mirea.PrimeNumbers.controllers;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
-import ru.mirea.PrimeNumbers.dto.PrimeRequest;
+import ru.mirea.PrimeNumbers.dto.request.PrimeRequest;
 import ru.mirea.PrimeNumbers.services.PrimeService;
 
 @RestController
